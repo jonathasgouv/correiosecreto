@@ -1,0 +1,19 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(26,26,26,1) 35%, rgba(26,26,26,1) 100%);
+  width: 100%;
+}
+
+button#save {
+    background: #484848;
+    color: white;
+    margin-left: 0.5em;
+}
+
+button#save:hover {
+    background: #616060;
+}

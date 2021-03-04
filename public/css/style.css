@@ -1,0 +1,257 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a.navbar-brand {
+  color: white !important;
+  font-weight: 800;
+  font-size: x-large;
+}
+
+.navbarli {
+  color: white
+}
+
+lu.navbarli {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+li {
+    margin-left: 1em;
+    list-style: none;
+}
+
+body {
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(26,26,26,1) 35%, rgba(26,26,26,1) 100%);
+  background-attachment: fixed;
+}
+
+.navbar {
+    background-color: #252525!important;
+}
+
+button.btn.btn-outline-success.my-2.my-sm-0 {
+    background-color: #0c0c0c;
+    border-color: #0c0c0c;
+    color: white;
+    transition: 0.2s all ease-in-out;
+    
+}
+
+button.btn.btn-outline-success.my-2.my-sm-0:hover {
+    background-color: white !important;
+    color: black !important; 
+}
+
+a {
+    color: #ffffff !important;
+}
+
+.truncate {
+  width: 20rem;
+  height: 20rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card.text-white.bg-secondary.mb-3.truncate {
+    //border: 0.6em solid #00000024;
+    box-shadow: 15px 12px 1px #00000026;
+    width: 18rem;
+    height: 20rem;
+    //border-radius: 0.5em;
+    transition: 0.2s all ease-in-out;
+}
+
+.card:hover {
+    filter: brightness(130%);
+    cursor: pointer;
+}
+
+.card {
+    margin: 2em;
+}
+
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+    font-weight: 800;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    font-weight: 600;
+}
+
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+    background-color: #0000001f;
+}
+
+div#recado {
+    width: 40rem;
+    height: 40rem;
+    text-align: left;
+}
+
+div#recado:hover {
+  filter: brightness(100%) !important;
+  cursor:initial;
+}
+
+div#header {
+    font-size: x-large;
+}
+
+h5#title {
+    font-size: xx-large;
+}
+
+p#message {
+    font-size: x-large;
+}
+
+#recadoslist {
+  display: flex;
+  margin-bottom: 1rem;
+  flex-flow: wrap;
+  justify-content: center;
+  margin-left: -3rem;
+}
+
+div#recadospage {
+    margin: 2rem;
+    margin-left: 5rem;
+    text-align: -webkit-center;
+}
+
+div#recadosblock {
+    display: inline-flex;
+}
+
+#myBtn {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+#myBtn:hover {
+  background-color: white; /* Add a dark-grey background on hover */
+  color: black;
+}
+
+.plussign::before {
+  content: "\2795";
+}
+
+.options {
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    -webkit-justify-content: center;
+}
+
+iframe#twitter-widget-0 {
+    margin-right: 0.5em;
+}
+
+/* Modal */
+
+.form {
+    background-color: #363b3f;
+    color: white;
+}
+
+.modal-header {
+    border-bottom: 1px solid #0d0d0d !important;
+}
+
+.modal-footer {
+    border-top: 1px solid #0d0d0d !important;
+}
+
+.close {
+    color: #fff !important;
+    opacity: .7 !important;
+}
+
+.close:hover {
+    color: #fff !important;
+    opacity: 1 !important;
+}
+
+button.btn.btn-primary {
+    background-color: #0c0c0c !important;
+    border-color: #0c0c0c !important;
+}
+
+button.btn.btn-primary:hover {
+    background-color: black !important;
+    border-color: black !important;
+}
+
+button.btn.btn-primary:focus-within {
+    border-color: black !important;
+}
+
+.charactercounter {
+    text-align: right;
+    color: #7b7b7b;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  border: 5px solid #ffffff4f;
+  padding: 1em;
+  margin-left: 5px;
+}
+
+.dot:hover {
+  border-color: white;
+}
+
+.isselected {
+  border-color: white !important;
+}
+
+.dotgrey {
+  background-color: #484848;
+}
+
+.red {
+  background-color: #ff2300c4;
+}
+
+.green {
+  background-color: #00ad35c4;
+}
+
+.blue {
+  background-color: #1965a9;
+}
+
+.yellow {
+  background-color: #ffbf09d1;
+}
+
+.coloroptions {
+    text-align: center;
+}
