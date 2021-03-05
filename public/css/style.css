@@ -89,17 +89,6 @@ a {
     background-color: #0000001f;
 }
 
-div#recado {
-    width: 40rem;
-    height: 40rem;
-    text-align: left;
-}
-
-div#recado:hover {
-  filter: brightness(100%) !important;
-  cursor:initial;
-}
-
 div#header {
     font-size: x-large;
 }
@@ -149,7 +138,7 @@ div#recadosblock {
 }
 
 #myBtn:hover {
-  background-color: white; /* Add a dark-grey background on hover */
+  background-color: white;
   color: black;
 }
 

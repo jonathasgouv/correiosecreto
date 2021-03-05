@@ -17,3 +17,32 @@ button#save {
 button#save:hover {
     background: #616060;
 }
+
+div#recado {
+    width: 40rem;
+    height: 42rem;
+    text-align: left;
+}
+
+div#recado:hover {
+  filter: brightness(100%) !important;
+  cursor:initial;
+}
+
+@media (max-width: 780px)
+{
+  div#recado {
+    width: 30rem;
+    height: 31rem;
+    text-align: left;
+  }
+}
+
+@media (max-width: 620px)
+{
+  div#recado {
+    width: 18rem;
+    height: 20rem;
+    text-align: left;
+  }
+}
