@@ -8,6 +8,10 @@ a.navbar-brand {
   font-size: x-large;
 }
 
+img#logoimg {
+    margin-top: -10px;
+}
+
 .navbarli {
   color: white
 }
