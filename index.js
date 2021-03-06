@@ -1,7 +1,5 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const fetch = require('node-fetch');
-const mcache = require('memory-cache');
 const Recado = require('./models/Recado');
 const { createCanvas, registerFont} = require('canvas')
 
@@ -27,24 +25,6 @@ function getLines(ctx, text, maxWidth) {
 
 
 const app = express();
-
-const cache = (duration) => {
-  return (req, res, next) => {
-    let key = '__express__' + req.originalUrl || req.url
-    let cachedBody = mcache.get(key)
-    if (cachedBody) {
-      res.send(cachedBody)
-      return
-    } else {
-      res.sendResponse = res.send
-      res.send = (body) => {
-        mcache.put(key, body, duration * 1000);
-        res.sendResponse(body)
-      }
-      next()
-    }
-  }
-}
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -190,4 +170,4 @@ app.get('*', function(req, res){
   res.redirect('/');
 });
 
-app.listen(3000, () => console.log('server started'));
+app.listen(process.env.PORT || 3000, () => console.log('server started'));

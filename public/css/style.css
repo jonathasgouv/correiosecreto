@@ -60,6 +60,13 @@ a {
   text-overflow: ellipsis;
 }
 
+p.nothingfound {
+    color: white;
+    position: fixed;
+    top: 50%;
+    font-size: xxx-large;
+}
+
 .card.text-white.bg-secondary.mb-3.truncate {
     //border: 0.6em solid #00000024;
     box-shadow: 15px 12px 1px #00000026;
@@ -243,6 +250,10 @@ button.btn.btn-primary:focus-within {
 
 .yellow {
   background-color: #ffbf09d1;
+}
+
+.pink {
+  background-color: #dc0449;
 }
 
 .coloroptions {

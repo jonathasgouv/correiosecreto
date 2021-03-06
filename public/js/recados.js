@@ -1,10 +1,11 @@
-colorshexa = {
+const colorshexa = {
   'grey': '484848',
   'blue': '1965a9',
-  'red': 'ff2300c4',
+  'red': 'c52208c4',
   'green': '00ad35c4',
-  'yellow': 'ffbf09d1'
-}
+  'yellow': 'ffbf09d1',
+  'pink': 'dc0449'
+};
 
 recado = {
   'name':'',

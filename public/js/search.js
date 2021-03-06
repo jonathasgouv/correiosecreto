@@ -3,7 +3,8 @@ const colorshexa = {
   'blue': '1965a9',
   'red': 'c52208c4',
   'green': '00ad35c4',
-  'yellow': 'ffbf09d1'
+  'yellow': 'ffbf09d1',
+  'pink': 'dc0449'
 };
 
 page = 1;
@@ -58,8 +59,12 @@ async function GenerateHTML() {
     </li>`
   }
 
-  document.getElementById('recadoslist').innerHTML += html;
-  page ++;
+  if (html == '') {
+    document.getElementById('recadoslist').innerHTML = '<p class="nothingfound">Parece que não há nada aqui 😢</p>'
+  } else {
+    document.getElementById('recadoslist').innerHTML += html;
+    page ++;
+  }
 }
 
 async function GetData() {

@@ -3,7 +3,8 @@ const colorshexa = {
   'blue': '1965a9',
   'red': 'c52208c4',
   'green': '00ad35c4',
-  'yellow': 'ffbf09d1'
+  'yellow': 'ffbf09d1',
+  'pink': 'dc0449'
 }
 
 page = 1

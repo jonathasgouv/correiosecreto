@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "Correio Secreto",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -10,9 +10,6 @@
     "body-parser": "latest",
     "canvas": "^2.7.0",
     "express": "latest",
-    "memory-cache": "^0.2.0",
-    "mongoose": "^5.11.17",
-    "node-fetch": "^2.6.1",
-    "xml2js": "^0.4.23"
+    "mongoose": "^5.11.17"
   }
 }
