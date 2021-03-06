@@ -1,11 +1,10 @@
 # Correio Secreto
 **Version 1.0.0**
 
-Correio Secreto is a web based application that allows users to send anonymous messages to their secret loves, friends or disagreements. [Check the live version]
-(https://correiosecreto.herokuapp.com/)
+Correio Secreto is a web based application that allows users to send anonymous messages to their secret loves, friends or disagreements. [Check the live version](https://correiosecreto.herokuapp.com/)
 
 <p align="center">
-  <img src="imgs/readmelogo.png">
+  <img src="public/imgs/readmelogo.png">
 </p>
 
 ## Table of Contents
