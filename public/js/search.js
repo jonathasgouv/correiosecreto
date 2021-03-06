@@ -31,6 +31,16 @@ $(document).ready(adjustSize());
 
 window.onresize = adjustSize;
 
+<<<<<<< HEAD
+=======
+$('#message-text').twemojiPicker();
+
+setInterval(function(){ 
+  remainingCharacters = 350 - document.getElementById('message-text').value.length
+  document.getElementById('counter').innerText = `${remainingCharacters} caracteres restantes`
+}, 100);
+
+>>>>>>> d13680f86fc1c2cfd63382053a14159b698ee141
 function truncate(str, n) {
 	return str.length > n ? str.substr(0, n - 1) + '&hellip;' : str;
 }
@@ -65,6 +75,11 @@ async function GenerateHTML() {
     document.getElementById('recadoslist').innerHTML += html;
     page ++;
   }
+<<<<<<< HEAD
+=======
+
+  twemoji.parse(document.body);
+>>>>>>> d13680f86fc1c2cfd63382053a14159b698ee141
 }
 
 async function GetData() {
@@ -109,12 +124,15 @@ document.getElementById('searchBtn').addEventListener('click', function() {
   window.location.href = `/search/${query}`
 });
 
+<<<<<<< HEAD
 function characterCounter(inputelement) {
   remainingCharacters = 350 - inputelement.value.length
 
   document.getElementById('counter').innerText = `${remainingCharacters} caracteres restantes`
 }
 
+=======
+>>>>>>> d13680f86fc1c2cfd63382053a14159b698ee141
 function cleanColorChoice() {
   colors = document.getElementsByClassName('dot');
 

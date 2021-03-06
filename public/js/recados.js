@@ -35,6 +35,16 @@ $(document).ready(adjustSize());
 
 window.onresize = adjustSize;
 
+<<<<<<< HEAD
+=======
+$('#message-text').twemojiPicker();
+
+setInterval(function(){ 
+  remainingCharacters = 350 - document.getElementById('message-text').value.length
+  document.getElementById('counter').innerText = `${remainingCharacters} caracteres restantes`
+}, 100);
+
+>>>>>>> d13680f86fc1c2cfd63382053a14159b698ee141
 document.getElementById('save').addEventListener('click', async function() {
   img = await fetch(`/api/render?id=${id}`)
   imgblob = await img.blob()
@@ -68,6 +78,11 @@ async function GenerateHTML() {
   }
 
   document.getElementById('recadospage').innerHTML = html;
+<<<<<<< HEAD
+=======
+
+  twemoji.parse(document.body);
+>>>>>>> d13680f86fc1c2cfd63382053a14159b698ee141
 }
 
 async function GetData() {
@@ -133,12 +148,15 @@ function getSelectedColor() {
   }
 }
 
+<<<<<<< HEAD
 function characterCounter(inputelement) {
   remainingCharacters = 350 - inputelement.value.length
 
   document.getElementById('counter').innerText = `${remainingCharacters} caracteres restantes`
 }
 
+=======
+>>>>>>> d13680f86fc1c2cfd63382053a14159b698ee141
 document.getElementById('message-btn').addEventListener('click', () => {
   name = document.getElementById('recipient-name').value
   text = document.getElementById('message-text').value

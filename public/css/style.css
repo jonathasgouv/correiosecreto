@@ -12,6 +12,13 @@ img#logoimg {
     margin-top: -10px;
 }
 
+<<<<<<< HEAD
+=======
+img.emoji {
+    width: 1.5em;
+}
+
+>>>>>>> d13680f86fc1c2cfd63382053a14159b698ee141
 .navbarli {
   color: white
 }
@@ -208,6 +215,20 @@ button.btn.btn-primary:focus-within {
     border-color: black !important;
 }
 
+<<<<<<< HEAD
+=======
+.emojipicker {
+    cursor: pointer;
+    text-align: right;
+    color: #adadad;
+}
+
+.emojipicker:hover {
+    text-align: right;
+    color: white;
+}
+
+>>>>>>> d13680f86fc1c2cfd63382053a14159b698ee141
 .charactercounter {
     text-align: right;
     color: #7b7b7b;
@@ -258,4 +279,9 @@ button.btn.btn-primary:focus-within {
 
 .coloroptions {
     text-align: center;
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> d13680f86fc1c2cfd63382053a14159b698ee141

@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "Correio Secreto",
+=======
+  "name": "CorreioSecreto",
+>>>>>>> d13680f86fc1c2cfd63382053a14159b698ee141
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
