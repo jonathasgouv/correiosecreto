@@ -10,6 +10,7 @@ Correio Secreto is a web based application that allows users to send anonymous m
 ## Table of Contents
 * [Getting Started](#getting-started)
 * [Installing](#installing)
+* [Features](#features)
 * [Built With](#built-with)
 * [Author](#author)
 * [License](#license)
@@ -28,6 +29,26 @@ $ npm start
 And that's it, your Correio Secreto is running
 
 :grinning:
+
+## Features
+### Mural
+All messages are displayed on the home page in reverse chronological order (the latest messages are shown first.)
+<p align="center">
+  <img src="public/imgs/scroll.gif">
+</p>
+
+### New messages
+The user can select from six different colors when creating a new message.
+<p align="center">
+  <img src="public/imgs/newm.gif">
+</p>
+
+### Unique page
+Every message has a unique page that can be shared with a link. The message can also be downloaded as an image, the image is generated dynamically by the backend using a canvas-like lib.
+<p align="center">
+  <img src="public/imgs/download.gif">
+</p>
+
 
 ## Built With
 * [Javascript](https://www.javascript.com/)
